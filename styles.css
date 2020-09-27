@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: verdana, arial, sans-serif;
+}
+
+/*header styling*/
+header {
+  background: url("images/harbour.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+
+
+}
+
+header h1 {
+  color: #6A5ACD;
+}
+
+header nav {
+  background-color: #6A5ACD;
+
+ 
+}
+
+header nav a {
+  color: white;
+  margin: auto;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display:inline-block;
+
+    
+}
+
+nav a:hover {
+  background-color: #483D8B;
+}
+/*Footer styling*/
+
+footer {
+  height: 130px;
+  padding: 20px;
+    background-color: #6A5ACD;
+	color:white;
+	font-size: 0.80em;
+}
+/*Home page styling*/
+
+.photos {
+  background: #7B68EE;
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.photos figure {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  width: 300px;
+}
+
+.photos figure img {
+  border: #483D8B solid 2px;
+  width: 300px;
+}
+
+
+
+.intro {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.90em;
+}
+
+.intro h4, h4 {
+  color: #7B68EE;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.intro p, iframe {
+  padding: 30px 30px 30px 30px;
+  border: #483D8B solid 2px;
+  border-radius: 10%;
+  background-color: #DCDCDC;
+}
+
+#youtube {
+  background-color: #ADFF2F;
+	width:300px;
+	height:200px;
+	margin:auto;
+	
+	
+}
+
+.icons {
+	font-size: 30px;
+	color:blue;
+	padding: 5px 5px 5px 5px;
+}
+
+/*Resources styling*/
+table {
+  width: 80%;
+  margin: 20px 20px 40px 150px;
+  border-collapse: collapse;
+  font-size: small;
+  table-layout: auto;
+}
+
+caption {
+  font-size: 2em;
+  padding: 15px 0 15px 0;
+  font-weight: bold;
+  color: #7B68EE;
+}
+
+table, th, tr, td {
+  border: grey solid 2px;
+  padding: 10px 10px 10px 10px;
+}
+
+th, tfoot {
+  background-color: #7B68EE;
+  padding: 15px 15px 15px 15px;
+}
+
+tbody tr:nth-child(1) {
+  font-weight: bold;
+  background-color: #FFE4E1;
+}
+
+tbody tr:nth-child(2) {
+  background-color: #98FB98;
+}
+
+tbody tr:nth-child(3) {
+  background-color: #98FB98;
+}
+
+tbody tr:nth-child(4) {
+  background-color: #98FB98;
+}
+
+tbody tr:nth-child(5) {
+  background-color: #D3D3D3;
+}
+
+tbody tr:nth-child(6) {
+  background-color: #D3D3D3;
+}
+
+tbody tr:nth-child(7) {
+  background-color: #D3D3D3;
+}
+
+tbody tr:nth-child(8) {
+  background-color: #F5DEB3;
+}
+
+#dec {
+  background-color: #7FFF00;
+}
+
+#jan {
+  background-color: #DA70D6;
+}
+
+#feb {
+  background-color: #FFFF00;
+}
+
+#dec:hover {
+  background-color: #7B68EE;
+}
+
+#jan:hover {
+  background-color: #7B68EE;
+}
+
+#feb:hover {
+  background-color: #7B68EE;
+}
+
+.useful-links {
+  border: grey solid 2px;
+  margin: 20px 20px 40px 150px;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  width: 79%;
+  background-color: #98FB98;
+}
+
+.useful-links dd a {
+  text-decoration: none;
+  color: black;
+}
+
+.useful-links dd a:hover {
+  text-decoration: underline;
+}
+/*Contact us styling*/
+.contactus {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contactus article {
+  padding: 10px 10px 10px 10px;
+  border: #483D8B solid 2px;
+  border-radius: 10%;
+  background-color: #DCDCDC;
+  margin: auto;
+}
+
+#envelope, #phone,#email {
+	font-size: 1.5em;
+}
+
+
+#googlemap {
+  background-color: #ADFF2F;
+	width:350px;
+	height:300px;
+}
+
+.twitter-timeline {
+  background-color: #ADFF2F;
+	width:300px;
+	height:300px;
+}
+
+
+/*About us styling*/
+.aboutus1 p {
+  padding: 30px 30px 30px 30px;
+  border: #483D8B solid 2px;
+  border-radius: 10%;
+  background-color: #DCDCDC;
+  margin: 20px;
+  font-size: 0.90em;
+}
+
+.aboutus2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.90em;
+  justify-content: space-between;
+}
+
+.aboutus2 article {
+  padding: 10px 30px 10px 30px;
+  border: #483D8B solid 2px;
+  border-radius: 10%;
+  background-color: #98FB98;
+  text-align: left;
+  width: 500px;
+  margin: 5px;
+}
+
+/*Form styling*/
+.aboutus2 article li, dt {
+  padding: 10px 30px 10px 30px;
+  color: #6A5ACD;
+  font-weight: bold;
+}
+
+.fieldset1 details {
+  text-align: left;
+  color: #6A5ACD;
+}
+
+.fieldset2, .fieldset3, .fieldset4 {
+  background-color: #DCDCDC;
+  text-align: left;
+  margin: 20px 40px 20px 40px;
+}
+
+legend {
+  color: #6A5ACD;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+input[type="text"], input[type="date"], input[type="tel"], input[type="email"], select {
+  width: 70%;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+  float: right;
+  resize: vertical;
+}
+
+label {
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  float: left;
+}
+
+input[type="reset"] {
+  background-color: red;
+  float: right;
+}
+
+textarea {
+  width: 70%;
+}
+
+
+  

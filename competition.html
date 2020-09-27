@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+   <head>
+      <meta charset="utf-8">
+      <title>Competitions</title>
+      <link rel="stylesheet" href="styles.css">
+	        <!--this code was taken from the following webpage: https://www.w3schools.com/icons/fontawesome_icons_brand.asp>-->	
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+   <!--header-->
+      <header>
+         <h1>Passage Environmental Group</h1>
+         <nav>
+            <a href="index.html">Home</a>
+            <a href="resources.html">Resources</a>
+            <a href="competition.html">Competitions</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="aboutus.html">About Us</a>
+         </nav>
+      </header>
+	   <!--main-->
+	   <main>
+	   <!--form-->
+      <form method="post" action="https://webdevcit.com/displayvalues.php"  target="_blank">
+         <fieldset class="fieldset1">
+            <h2>Help us to <q>Keep Passage Pretty</q> and win a fantasic prize!</h2>
+            <h3>Competition details</h3>
+            <p>
+               All you need to do is fill in your details below and submit along with your Reduce, Reuse or Recycle suggestion and a photo. 
+               The winning entry will be treated to a boat trip for two around Cork harbour followed by dinner in the beautiful Bosun restaurant
+               overlooking Cork harbour.<br>
+               The competition closes at 6pm Monday 25th November and the lucky winner will be announced on our website on Tuesday, 26th November.  
+            </p>
+            <details>
+               <summary>Click here to see full details of terms & conditions.</summary>
+               <ul>
+                  <li>You must be 17 or older to enter the competition.</li>
+                  <li>Only one entry per person is permitted.</li>
+                  <li>You must be living in the Munster region.</li>
+                  <li>You must be available to go on the boat trip on the last Saturday in November 2019.</li>
+               </ul>
+            </details>
+            <input type="hidden" name="subject" value="Contest Entry Form">
+            <input type="hidden" name="redirect" value="forms.html">
+			 <!--Your Details-->
+            <fieldset class="fieldset2">
+               <legend>Your Details</legend>
+               <label for="firstname">First Name:</label>
+               <input autofocus required id="firstname" name="firstname" type="text"><br>
+               <label for="lastname">Last Name:</label>
+               <input required id="lastname" name="surname" type="text"><br>
+               <label for="dob" >DOB:</label> 
+               <input required id="dob" type="date" name="usersDob"  /><br><br>
+               <label for="email">Email Address:</label>
+               <input required id="email" name="emailaddress" type="email"><br><br>
+               <label for="tel">Telephone Number:</label>
+               <input required id="tel" name="telephone" type="tel"><br>
+               <label for="county">County</label>
+               <select id="county" name="county">
+                  <option>Please select...</option>
+                  <option>Clare</option>
+                  <option>Cork</option>
+                  <option>Kerry</option>
+                  <option>Limerick</option>
+                  <option>Tipperary</option>
+                  <option>Waterford</option>
+               </select>
+            </fieldset>
+			 <!--Suggestion-->
+            <fieldset class="fieldset3">
+               <legend>Your Suggestion</legend>
+               <p>Which category does your suggestion relates to:</p><br>
+               <input name="category" type="radio" value="reduce">Reduce<br>
+               <input name="category" type="radio" value="reuse">Reuse<br>
+               <input name="category" type="radio" value="recycle">Recycle<br>
+               <p>In 100 words or less, describe your suggestion to either Reduce, Reuse or Recycle.</p>
+               <textarea id="textentry" rows="5" cols="70" placeholder="no more than 100 words long">
+</textarea>
+               <br>
+               <label for="file">Upload a photo to support your entry!</label><br> 
+               <input  id="file" type="file" name="userphoto"/>
+            </fieldset>
+				  <!--Submit-->
+            <fieldset class="fieldset4">
+               <legend>Submit</legend>
+               <input type="submit" value="Submit">
+               <input type="reset" value="Cancel">
+            </fieldset>
+         </fieldset>
+         <br>
+         <br>
+      </form>
+	  </main>
+	  <!--footer-->
+      <footer>
+         <details>
+            <summary>&copy;Copyright 2019.</summary>
+            <p>Passage Environmental Group. All Rights Reserved.</p>
+         </details>
+         <Address>
+            Passage Environmental Group<br>
+            Main Street<br>
+            Passage West<br>
+            Cork<br>
+         </address>
+		  <!--Social Media icons-->
+         <a class="icons" href="https://www.facebook.com/"><i class="fa fa-facebook-square" title="Facebook"></i></a>
+         <a class="icons" href="https://twitter.com/home"><i class="fa fa-twitter-square" title="Twitter"></i></a>
+         <a class="icons" href="https://www.instagram.com/"><i class="fa fa-instagram" title="Instagram"></i></a>
+      </footer>
+   </body>
+</html>
